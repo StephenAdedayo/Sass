@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: roboto, sans-serif;
+}
+
+nav {
+  width: 100%;
+  height: auto;
+  background-color: #e8e6e6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .left img {
+  height: 100%;
+  width: 50px;
+  margin: 0 0 0 50px;
+}
+nav .center {
+  display: flex;
+}
+nav .center .links a {
+  text-decoration: none;
+}
+nav .center .links a:hover {
+  color: blue;
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: bold;
+  transition: 0.5s ease-in;
+}
+nav .right {
+  margin: 0 50px 0 0;
+}
+nav .right .search-container button {
+  color: white;
+  background-color: blue;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+main {
+  display: flex;
+  height: 80vh;
+  width: 100%;
+}
+main .left {
+  border: 1px solid;
+  flex: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+main .left .left-content {
+  border: 1px solid;
+  padding: 30px;
+  border: none;
+}
+main .left .left-content h1 {
+  margin-bottom: 20px;
+}
+main .left .left-content h1 span {
+  color: tomato;
+}
+main .left .left-content h2 {
+  margin-bottom: 20px;
+}
+main .left .left-content button {
+  width: 100%;
+  padding: 5px;
+  background-color: tomato;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+}
+main .left .left-content button:hover {
+  background-color: blue;
+  font-weight: bold;
+  transition: 0.5s ease-in;
+  font-style: italic;
+}
+main .right {
+  flex: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .right .right-content img {
+  height: 250px;
+  width: 250px;
+  border-radius: 20px;
+}/*# sourceMappingURL=style.css.map */
